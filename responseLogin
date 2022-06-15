@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "63c08600-5aea-4b88-93f8-976bd1457a0e",
+		"name": "Mpro2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21086816"
+	},
+	"item": [
+		{
+			"name": "Insert User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:9009/user",
+					"host": [
+						"localhost"
+					],
+					"port": "9009",
+					"path": [
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:9009/login",
+					"host": [
+						"localhost"
+					],
+					"port": "9009",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "InsertProduct",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:9009/product",
+					"host": [
+						"localhost"
+					],
+					"port": "9009",
+					"path": [
+						"product"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
